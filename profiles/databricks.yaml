@@ -11,8 +11,8 @@
 
 # Use a section of the TLC Trip Record Dataset for model development
 # (https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
-INGEST_DATA_LOCATION: dbfs:/databricks-datasets/nyctaxi-with-zipcodes/subsampled
+INGEST_DATA_LOCATION: dbfs:/FileStore/shared_uploads/serenaruan@microsoft.com/company_bankruptcy_prediction_data-1.csv
 # Specify the format of the dataset
-INGEST_DATA_FORMAT: spark_sql
+INGEST_DATA_FORMAT: csv
 # Override the default train / validation / test dataset split ratios
 SPLIT_RATIOS: [0.75, 0.125, 0.125]

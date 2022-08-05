@@ -18,7 +18,6 @@ from typing import Dict
 from pandas import DataFrame
 from sklearn.metrics import mean_squared_error
 
-
 def weighted_mean_squared_error(
     eval_df: DataFrame,
     builtin_metrics: Dict[str, int],  # pylint: disable=unused-argument
